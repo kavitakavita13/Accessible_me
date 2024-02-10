@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accessible Me</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&family=Stick+No+Bills:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="C:\Users\kavit\Documents\styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="site-header" role="banner">
+      <h1>The Bubble</h1>
+      <nav class="main-nav" role="navigation">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#products">Play</a></li>
+          <li><a href="#reservation">Specials</a></li>
+          <li><a href="#studio">Contacts</a></li>
+        </ul>
+      </nav>
+      <img src="C:\Users\kavit\Desktop\The bubble.jpg" class="banner" alt="The bubble">
+    </div>
+    <div class="main-content" role="main">
+      <h1>Welcome to The bubble</h1>
+      <p>Come and check out our sky high suspended net course for an elevated adventure waiting to be conquered!</p>
+      <p>The Bubble offers a unique party venue with multiple activities. From a huge inflatable play park to  arcade games to private party rooms, we are the go-to destination for unforgettable events.</p>
+      <div class="owner" role="contentinfo">
+        <h2>Meet the owner</h2>
+        <ul>
+          <li>Name: Tom cel</li>
+          <li>Title: Manager</li>
+          <li>Email: <a href="hello@the-bubble.com">hello@the-bubble.com</a></li>
+          <li>Phone: <a href="tel:416 410 7469">416 410 7469</a></li>
+        </ul>
+        <h2>Address</h2>
+        <p>
+          The bubble<br>
+          7979 Weston Road,<br>
+          Woodbridge, Vaughan<br>
+          L4L 1A6
+        </p>
+      </div>
+      <div class="contact-section" role="form">
+        <h2>Contact Us</h2>
+        <form action="thanks.html">
+          <label for="fullname">Full Name</label>
+          <input type="text" id="fullname" placeholder="Full Name" aria-required="true">
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="Email" aria-required="true">
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" placeholder="Subject">
+          <label for="message">Your Message</label>
+          <textarea id="message" aria-required="true"></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </div>
+    <div class="site-footer" role="contentinfo">
+      &copy; 2024 The Bubble / RINX Entertainment.
+    </div>
+  </div>
+</body>
+
+</html>
